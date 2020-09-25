@@ -1,5 +1,5 @@
 const express = require("express");
-const DemandeController = require("../contolleurs/damande.controllers");
+const DemandeController = require("../controllers/damande.controllers");
 
 const router = express.Router(); 
 

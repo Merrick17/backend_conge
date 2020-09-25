@@ -1,5 +1,5 @@
 const express = require("express");
-const UserController = require("../contolleurs/users.controllers");
+const UserController = require("../controllers/users.controllers");
 const verifToken=require("../auth/verifToken");
 //declaration de la route 
 const isAdmin = require("../auth/isAdmin");
